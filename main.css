@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.card__image{
+    width: 100vw;
+    height: 30v;
+}
+
+.card__title > span {
+    color: hsl(277, 64%, 61%);
+}
+
+.card__description {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card {
+    background-color:   hsl(244, 38%, 16%);
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+.card__stats p {
+    margin: 0.32em;
+}
+
+.card__stat {
+    font-size: 1.2rem;
+}
+
+.card__concept {
+    text-transform: uppercase;
+        color: hsla(0, 0%, 100%, 0.6);
+
+}
